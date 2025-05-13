@@ -1,0 +1,90 @@
+.content-area {
+    margin-top: 60px;
+    padding: 20px;
+    flex: 1;
+    background-color: #f9fafb;
+  }
+  
+  .page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  .section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #111827;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .announcement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .announcement-card {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px 20px;
+  }
+  
+  .announcement-card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #1f2937;
+  }
+  
+  .announcement-card p {
+    margin: 0 0 10px;
+    color: #374151;
+  }
+  
+  .announcement-card button {
+    background-color: #10b981;
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+  
+  .announcement-card button:hover {
+    background-color: #059669;
+  }
+  

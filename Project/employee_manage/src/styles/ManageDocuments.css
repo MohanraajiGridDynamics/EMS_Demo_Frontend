@@ -1,0 +1,69 @@
+.content-area {
+    margin-top: 60px; /* below topbar */
+    padding: 20px;
+    flex: 1;
+    background-color: #f9fafb;
+  }
+  
+  .page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  .section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #111827;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  input[type="file"] {
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #e5e7eb;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .download-link {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
