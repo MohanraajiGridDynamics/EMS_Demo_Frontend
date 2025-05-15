@@ -43,6 +43,11 @@ import ViewProject from "./accountPages/ViewProject";
 import EditProject from "./accountPages/EditProject"; // correct path
 import AddProject from "./accountPages/AddProject";
 
+
+import ManageDemands from "./demandPages/ManageDemands"; // correct path
+import Staffing from "./demandPages/Staffing";
+import ViewDemand from "./demandPages/ViewDemands";
+
 function App() {
   return (
     <ColorProvider>
@@ -97,7 +102,12 @@ function App() {
           <Route path="/account/add-project" element={<AddProject />} />
 
 
-          
+          {/* Demand pages */}
+
+           <Route path="/demand/manage-demands" element={<ManageDemands />} /> 
+           <Route path="/demand/staffing" element={<Staffing/>} />
+            <Route path="/demand/view/:id" element={<ViewDemand />} />
+
         </Routes>
       </Router>
       </GoalContextProvider>

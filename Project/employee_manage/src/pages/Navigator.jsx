@@ -35,6 +35,10 @@ function Navigator() {
     navigate("/account/manage-leads");
   }
 
+  const demand = () => {
+    navigate("/demand/manage-demands");
+  }
+
   return (
     <div style={styles.navigator}>
       <h1 style={styles.title}>Employee Management System</h1>
@@ -44,7 +48,7 @@ function Navigator() {
       <button onClick={emp}>Employee Management Panel</button>
       <button onClick={performance}>Performance Analysation Panel</button>
       <button onClick={account}>Account Panel</button>
-      <button>Demand Panel</button>
+      <button onClick={demand}>Demand Panel</button>
       <button>Talent Acqusation Panel</button>
       <button>Training Panel</button>
       <button>Finance Panel</button>
