@@ -43,6 +43,14 @@ function Navigator() {
     navigate("/ta/candidate-register");
   }
 
+  const training = () => {
+    navigate("/training/manageProg");
+  }
+
+  const finance = () => {
+    navigate("/finance/fin-module");
+  }
+
   return (
     <div style={styles.navigator}>
       <h1 style={styles.title}>Employee Management System</h1>
@@ -54,8 +62,8 @@ function Navigator() {
       <button onClick={account}>Account Panel</button>
       <button onClick={demand}>Demand Panel</button>
       <button onClick={ta}>Talent Acqusation Panel</button>
-      <button>Training Panel</button>
-      <button>Finance Panel</button>
+      <button onClick={training}>Training Panel</button>
+      <button onClick={finance}>Finance Panel</button>
     </div>
   );
 }

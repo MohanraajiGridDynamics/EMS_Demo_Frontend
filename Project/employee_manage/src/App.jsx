@@ -55,6 +55,13 @@ import TIScreen from "./talentAcquisationPages/TIScreen";
 import NTIScreen from "./talentAcquisationPages/NTIScreen";
 import TAReports from "./talentAcquisationPages/TAReports";
 
+
+import ManageProgram from "./trainingModulePages/ManageProgram";
+
+
+import FinanceModule from "./financePages/FinanceModule";
+
+
 function App() {
   return (
     <ColorProvider>
@@ -124,6 +131,10 @@ function App() {
             <Route path="/ta/NTIScreen" element={<NTIScreen/>} />
             <Route path="/ta/tareports" element={<TAReports/>} />
 
+
+            <Route path="/training/manageProg" element={<ManageProgram/>} />
+
+            <Route path="/finance/fin-module" element={<FinanceModule/>} />
         </Routes>
       </Router>
       </GoalContextProvider>
