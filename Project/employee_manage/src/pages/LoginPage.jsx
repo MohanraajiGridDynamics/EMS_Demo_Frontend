@@ -16,7 +16,8 @@ function LoginPage() {
       return;
     }
     // Later: Validate login credentials properly
-    navigate("/admin-dashboard"); // Redirect after "login"
+    // navigate("/admin-dashboard"); // Redirect after "login"
+    navigate("/navigator");
   };
 
   return (

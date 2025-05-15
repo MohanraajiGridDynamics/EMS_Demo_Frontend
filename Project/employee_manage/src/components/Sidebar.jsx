@@ -7,17 +7,17 @@ function Sidebar() {
   const navigate = useNavigate();
 
   const sidebarItems = [
-    { name: "Role Management", path: "/role-management" },
-    { name: "Department Management", path: "/department-management" },
-    { name: "Title Management", path: "/title-management" },
-    { name: "Grade Management", path: "/grade-management" },
-    { name: "Create Employee", path: "/create-employee" },
-    { name: "Manage Holidays/WFH", path: "/manage-holidays" },
-    { name: "Manage Users", path: "/manage-users" },
-    { name: "Employee Location", path: "/manage-location" },
-    { name: "Manage Documents", path:"/manage-docs"},
-    { name: "Manage Announcement", path: "/manage-announcement" },
-    { name: "Manage Timesheet", path: "/manage-timesheet" },
+    { name: "Role Management", path: "/employee-role-management" },
+    { name: "Department Management", path: "/employee-department-management" },
+    { name: "Title Management", path: "/employee-title-management" },
+    { name: "Grade Management", path: "/employee-grade-management" },
+    { name: "Create Employee", path: "/employee-create-employee" },
+    { name: "Manage Holidays/WFH", path: "/employee-manage-holidays" },
+    { name: "Manage Users", path: "/employee-manage-users" },
+    { name: "Employee Location", path: "/employee-manage-location" },
+    { name: "Manage Documents", path:"/employee-manage-docs"},
+    { name: "Manage Announcement", path: "/employee-manage-announcement" },
+    { name: "Manage Timesheet", path: "/employee-manage-timesheet" },
     { name: "Employee Dashboard", path: "/employee-dashboard" },
   
   ];
