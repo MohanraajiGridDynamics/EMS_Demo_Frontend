@@ -39,6 +39,10 @@ function Navigator() {
     navigate("/demand/manage-demands");
   }
 
+  const ta = () => {
+    navigate("/ta/candidate-register");
+  }
+
   return (
     <div style={styles.navigator}>
       <h1 style={styles.title}>Employee Management System</h1>
@@ -49,7 +53,7 @@ function Navigator() {
       <button onClick={performance}>Performance Analysation Panel</button>
       <button onClick={account}>Account Panel</button>
       <button onClick={demand}>Demand Panel</button>
-      <button>Talent Acqusation Panel</button>
+      <button onClick={ta}>Talent Acqusation Panel</button>
       <button>Training Panel</button>
       <button>Finance Panel</button>
     </div>

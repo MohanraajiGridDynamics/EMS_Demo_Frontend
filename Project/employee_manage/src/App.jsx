@@ -48,6 +48,13 @@ import ManageDemands from "./demandPages/ManageDemands"; // correct path
 import Staffing from "./demandPages/Staffing";
 import ViewDemand from "./demandPages/ViewDemands";
 
+
+import CandidateRegister from "./talentAcquisationPages/CandidateRegister";
+import InterviewWorkflow from "./talentAcquisationPages/InterviewWorkFlow";
+import TIScreen from "./talentAcquisationPages/TIScreen";
+import NTIScreen from "./talentAcquisationPages/NTIScreen";
+import TAReports from "./talentAcquisationPages/TAReports";
+
 function App() {
   return (
     <ColorProvider>
@@ -107,6 +114,15 @@ function App() {
            <Route path="/demand/manage-demands" element={<ManageDemands />} /> 
            <Route path="/demand/staffing" element={<Staffing/>} />
             <Route path="/demand/view/:id" element={<ViewDemand />} />
+
+
+            {/* Talent Acquisation Pages */}
+
+            <Route path="/ta/candidate-register" element={<CandidateRegister/>} />
+            <Route path="/ta/interview-workflow" element={<InterviewWorkflow/>} />
+            <Route path="/ta/TIScreen" element={<TIScreen/>} />
+            <Route path="/ta/NTIScreen" element={<NTIScreen/>} />
+            <Route path="/ta/tareports" element={<TAReports/>} />
 
         </Routes>
       </Router>

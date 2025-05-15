@@ -1,0 +1,67 @@
+/* Reset any list styling */
+.topbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.topbar-menu-item {
+  /* spacing handled by gap on ul */
+}
+
+.topbar-link {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+.topbar-link:hover {
+  color: #4f46e5; /* Indigo-ish */
+}
+
+.topbar-link.active {
+  color: #4f46e5;
+  border-bottom: 3px solid #4f46e5;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  
+}
+
+.topbar-nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+}
+
+.topbar-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4f46e5;
+  user-select: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Responsive: hide menu on small screens */
+@media (max-width: 768px) {
+  .topbar-menu {
+    display: none;
+  }
+}
